@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8" />
+    <title>Barkeepers</title>
+    <link rel="stylesheet" href="../index.css" />
+	<link rel="stylesheet" href="users.css" />
+	<script src="user.js"></script>
+	<link rel="icon" type="image/png" href="../assets/icon/icon.png" />
+    </head>
+	<body class="main">
+		
+		<div class="login-box">
+			<h2>Login</h2>
+			<form action="Log.php" method="post" id="UserLog">
+			  <div class="user-box">
+				<input type="text" name="correo" required="">
+				<label>Correo</label>
+			  </div>
+			  <div class="user-box">
+				<input type="password" name="contraseña" required="">
+				<label>Password</label>
+			  </div>
+			  <input type="submit" value="Enviar">
+			 <!-- <a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				Submit
+			  </a>-->
+			</form>
+		</br>
+		</br>
+		</br>
+			<div class="log_out"></div>
+			<h2>Registro</h2>
+			<form action="Users.php" method="post" id="new">
+				<div class="user-box">
+					<input type="text" name="nombre" required="">
+					<label>Nombre</label>
+				</div>
+				<div class="user-box">
+					<input type="text" name="apellido" required="">
+					<label>Apellido</label>
+				</div>
+				<div class="user-box">
+					<input type="text" name="correo" required="">
+					<label>Correo</label>
+				</div>
+				<div class="user-box">
+					<input type="password" name="contraseña" required="">
+					<label>Contraseña</label>
+				</div>
+				<div class="user-box">
+					<input type="date" name="fecha">
+					<label>Nacimiento</label>
+				</div>
+				<input type="submit" value="Enviar">
+				<!-- <a href="#">
+				   <span></span>
+				   <span></span>
+				   <span></span>
+				   <span></span>
+				   Submit
+				 </a>-->
+
+			</form>	
+	</body>
+</html>	

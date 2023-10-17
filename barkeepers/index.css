@@ -1,0 +1,66 @@
+.main {
+	background: #252525;
+}
+.barraUs{
+    display: flex;
+	background-color: #252525;
+}
+#icon_US {
+    width: 50px;
+}
+#more{
+    width: 25px;
+    height: 25px;
+}
+#logo{
+    height: 35px;
+	margin-top: 7px;
+}
+.more{
+    position: relative;
+    z-index: 3;
+    left: -15px;
+    top: 30px;
+	background-color: #20202000;
+}
+.logo{
+    margin-left: 30px;
+	top: 300px;
+}
+  
+  #ingredientes {
+	border: 1px solid #1c2627;
+	background: linear-gradient(to top right,#2b4b9b 0%, #e7267a 100%);
+	text-align: center;
+	color: black;
+	border-radius: 25px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+ #barranav{
+  margin-top:25%;
+
+ }
+.BusLis{
+	position: absolute;
+	top: 120px;
+	left: 10px;
+  }
+  #dataTables_wrapper{
+  	 display: inline-block;
+  }
+  .dataTables_filter{
+  	position:relative;
+  	top: -1px;
+  left: 2px;
+
+  }
+  #id01{
+	display:none;
+  }
+  #colorL{
+       color: #e7267a;
+  }
+  
